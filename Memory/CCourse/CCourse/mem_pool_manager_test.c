@@ -47,7 +47,7 @@ int main() {
     
     mem_pool_destroy(my_mem_pool);
     my_mem_pool = NULL;
-    .
+    
     return 0;
 }
 
