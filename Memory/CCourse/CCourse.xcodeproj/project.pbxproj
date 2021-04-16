@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC14D37E262923910094DA6F /* StructsIntro.c in Sources */ = {isa = PBXBuildFile; fileRef = FC14D37D262923910094DA6F /* StructsIntro.c */; };
+		FC14D382262929E10094DA6F /* DynamicallyAllocatedStructures.c in Sources */ = {isa = PBXBuildFile; fileRef = FC14D381262929E10094DA6F /* DynamicallyAllocatedStructures.c */; };
+		FC14D387262938B70094DA6F /* mem_pool_manager.c in Sources */ = {isa = PBXBuildFile; fileRef = FC14D384262938B70094DA6F /* mem_pool_manager.c */; };
+		FC14D388262938B70094DA6F /* mem_pool_manager_test.c in Sources */ = {isa = PBXBuildFile; fileRef = FC14D385262938B70094DA6F /* mem_pool_manager_test.c */; };
 		FC1914752612C0140075660A /* PointersPassByRef.c in Sources */ = {isa = PBXBuildFile; fileRef = FC1914742612C0140075660A /* PointersPassByRef.c */; };
 		FC1914792612D0CE0075660A /* PointerArithmetics.c in Sources */ = {isa = PBXBuildFile; fileRef = FC1914782612D0CE0075660A /* PointerArithmetics.c */; };
 		FC19147D2612D4180075660A /* FunctionPointers.c in Sources */ = {isa = PBXBuildFile; fileRef = FC19147C2612D4180075660A /* FunctionPointers.c */; };
@@ -32,6 +36,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FC14D37C262923910094DA6F /* StructsIntro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StructsIntro.h; sourceTree = "<group>"; };
+		FC14D37D262923910094DA6F /* StructsIntro.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StructsIntro.c; sourceTree = "<group>"; };
+		FC14D380262929E10094DA6F /* DynamicallyAllocatedStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicallyAllocatedStructures.h; sourceTree = "<group>"; };
+		FC14D381262929E10094DA6F /* DynamicallyAllocatedStructures.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DynamicallyAllocatedStructures.c; sourceTree = "<group>"; };
+		FC14D384262938B70094DA6F /* mem_pool_manager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mem_pool_manager.c; sourceTree = "<group>"; };
+		FC14D385262938B70094DA6F /* mem_pool_manager_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mem_pool_manager_test.c; sourceTree = "<group>"; };
+		FC14D386262938B70094DA6F /* mem_pool_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mem_pool_manager.h; sourceTree = "<group>"; };
 		FC1914732612C0140075660A /* PointersPassByRef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointersPassByRef.h; sourceTree = "<group>"; };
 		FC1914742612C0140075660A /* PointersPassByRef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointersPassByRef.c; sourceTree = "<group>"; };
 		FC1914772612D0CE0075660A /* PointerArithmetics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerArithmetics.h; sourceTree = "<group>"; };
@@ -84,6 +95,9 @@
 		FCE29AEC26115EF7005A2DC3 /* CCourse */ = {
 			isa = PBXGroup;
 			children = (
+				FC14D385262938B70094DA6F /* mem_pool_manager_test.c */,
+				FC14D384262938B70094DA6F /* mem_pool_manager.c */,
+				FC14D386262938B70094DA6F /* mem_pool_manager.h */,
 				FC890A5826141DD5008B77AD /* ArrayIntro.c */,
 				FC890A5726141DD5008B77AD /* ArrayIntro.h */,
 				FC4EF5362622956E0007FE25 /* DynamicMemoryManagementWithArrays.c */,
@@ -103,6 +117,10 @@
 				FC651A2D261175430058CA57 /* PointerIntro.h */,
 				FC1914742612C0140075660A /* PointersPassByRef.c */,
 				FC1914732612C0140075660A /* PointersPassByRef.h */,
+				FC14D37C262923910094DA6F /* StructsIntro.h */,
+				FC14D37D262923910094DA6F /* StructsIntro.c */,
+				FC14D380262929E10094DA6F /* DynamicallyAllocatedStructures.h */,
+				FC14D381262929E10094DA6F /* DynamicallyAllocatedStructures.c */,
 			);
 			path = CCourse;
 			sourceTree = "<group>";
@@ -163,15 +181,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC14D387262938B70094DA6F /* mem_pool_manager.c in Sources */,
 				FC890A5926141DD5008B77AD /* ArrayIntro.c in Sources */,
 				FCE29AEE26115EF7005A2DC3 /* main.c in Sources */,
 				FC651A2F261175430058CA57 /* PointerIntro.c in Sources */,
 				FC1914792612D0CE0075660A /* PointerArithmetics.c in Sources */,
 				FC651A2A261174490058CA57 /* MemoryDemo.c in Sources */,
+				FC14D37E262923910094DA6F /* StructsIntro.c in Sources */,
+				FC14D388262938B70094DA6F /* mem_pool_manager_test.c in Sources */,
 				FC890A5426141700008B77AD /* MemoryManagement.c in Sources */,
 				FC890A6026142E7E008B77AD /* MultiDimensionalArrays.c in Sources */,
 				FC1914752612C0140075660A /* PointersPassByRef.c in Sources */,
 				FC19147D2612D4180075660A /* FunctionPointers.c in Sources */,
+				FC14D382262929E10094DA6F /* DynamicallyAllocatedStructures.c in Sources */,
 				FC4EF5372622956E0007FE25 /* DynamicMemoryManagementWithArrays.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
