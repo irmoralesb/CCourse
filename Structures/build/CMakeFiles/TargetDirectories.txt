@@ -1,0 +1,7 @@
+/home/irmorales/projects/CProjects/Structures/Structures/build/CMakeFiles/install/strip.dir
+/home/irmorales/projects/CProjects/Structures/Structures/build/CMakeFiles/install/local.dir
+/home/irmorales/projects/CProjects/Structures/Structures/build/CMakeFiles/install.dir
+/home/irmorales/projects/CProjects/Structures/Structures/build/CMakeFiles/list_install_components.dir
+/home/irmorales/projects/CProjects/Structures/Structures/build/CMakeFiles/rebuild_cache.dir
+/home/irmorales/projects/CProjects/Structures/Structures/build/CMakeFiles/edit_cache.dir
+/home/irmorales/projects/CProjects/Structures/Structures/build/CMakeFiles/structures.dir
